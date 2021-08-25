@@ -9,6 +9,7 @@ const App = () => {
     <ThemeProvider theme={sportsbetLight}>
       <main>
         <Switch checked={state} onChange={(e) => setState(e.target.checked)} />
+
       </main>
     </ThemeProvider>
   );
