@@ -77,8 +77,12 @@ WSGI_APPLICATION = 'Bulma.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'bulma',
+        'USER': 'admin',
+        'PASSWORD': '21312131',
+        'PORT': 3306,
+        'HOST': 'bulma.cn6xsz0rqr2w.eu-central-1.rds.amazonaws.com'
     }
 }
 
